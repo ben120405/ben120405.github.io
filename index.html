@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Benin Dbritto | Portfolio</title>
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">Benin<span>.</span></div>
+
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+
+  <ul id="menu">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-overlay"></div>
+
+  <div class="hero-text">
+    <h1>Hi, I'm <span>Benin Dbritto</span></h1>
+    <p>Enthusiastic towards Data Applications</p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="assets/resume.pdf" download class="btn outline">
+        <i class="fa-solid fa-download"></i> Resume
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section glass reveal">
+  <h2>About Me</h2>
+  <p>
+    Engineering student passionate about Data Analytics,
+    How Data moves in big companies and the way it is visualized.
+    I enjoy analysing data and make real-life dashboards that helps in Business Decisions.
+  </p>
+</section>
+
+<section id="skills" class="section gradient reveal">
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill"><i class="fa-brands fa-python"></i> Python</div>
+    <div class="skill"><i class="fa-solid fa-brain"></i> SQL</div>
+    <div class="skill"><i class="fa-solid fa-network-wired"></i> MS EXCEL</div>
+    <div class="skill"><i class="fa-brands fa-github"></i> POWER BI</div>
+    <div class="skill"><i class="fa-solid fa-code"></i> Flask</div>
+    <div class="skill"><i class="fa-brands fa-html5"></i> HTML</div>
+    <div class="skill"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+    <div class="skill"><i class="fa-brands fa-js"></i> JS</div>
+    <div class="skill"><i class="fa-brands fa-github"></i> GitHub</div>
+  </div>
+</section>
+
+<section id="projects" class="section dark reveal">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>🦴 Knee Osteoarthritis Detection</h3>
+    <p>
+      AI-powered system that predicts Knee OA severity from X-ray images
+      using CNN (AlexNet) with a full-stack dashboard.
+    </p>
+    <a href="https://github.com/ben120405/Knee-Osteoarthritis-Detection" target="_blank">
+      View on GitHub →
+    </a>
+  </div>
+</section>
+
+<section id="contact" class="section glass reveal">
+  <h2>Contact Me</h2>
+
+  <form class="contact-form"
+    action="https://formsubmit.co/yourmail@gmail.com"
+    method="POST">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="socials">
+    <a href="https://github.com/ben120405"><i class="fa-brands fa-github"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="mailto:yourmail@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Benin Dbritto
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
